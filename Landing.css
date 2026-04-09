@@ -1,0 +1,185 @@
+body {
+    background-color: #010C1F;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 40px;
+}
+
+/* Subheading */
+.subheading {
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+/* Button */
+button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: pink;
+    cursor: pointer;
+    border: none;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* IMAGE */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* SERVICES */
+.service1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.Our-Services h1 {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* EXPLORE */
+.Explore {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.Explore .Submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* HELP SECTION */
+.container2,
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1px;
+}
+
+.container2 div,
+.container3 div {
+    width: 300px;
+    height: auto;
+    background: #fff;
+    color: #010C1F;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Forth section */ 
+.Forth{
+    padding: 20px; 
+    margin: 30px; 
+    background-color: #ffffff; 
+    color: black; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    border-radius: 15px; 
+}
+ .Forth .img2 { margin-bottom: -25px; 
+} 
+.Forth .h1 {
+     font-weight: bold; text-align: center; 
+    }
+/* GRID (FIXED SINGLE USE) */
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid div {
+    background: #fff;
+    color: #010C1F;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 280px;
+}
+
+/* FAQ */
+.faq {
+    background: #fff;
+    color: #010C1F;
+    padding: 50px 20px;
+}
+.faq .h1 {
+    text-align: center;
+
+}
+
+.faq-item1,
+.faq-item2,
+.faq-item3,
+.faq-item4 {
+    background: #f2f2f2;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 6000px;
+     text-align: left;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Forth {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.container5{
+    text-align: center;
+}
